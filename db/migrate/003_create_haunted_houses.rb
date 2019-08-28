@@ -11,7 +11,6 @@ class HauntedHouses < ActiveRecord::Migration[4.2]
       table.datetime :opening_date
       table.datetime :closing_date
       table.string :description
-
     end
   end
 
